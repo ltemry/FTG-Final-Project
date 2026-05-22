@@ -1,0 +1,13 @@
+scenario,annual_revenue_$M,max_capex_$M,capex_$M_per_MW,capex_p5_$M,capex_p95_$M
+Base — Framework A (LMP),1.01,7.7,2.26,7.3,8.12
+Framework B — peaker spark,0.09,0.67,0.2,0.25,1.15
+Framework B — CCGT spark,0.46,3.52,1.03,1.72,5.26
+A @ discount=6%,1.01,9.83,2.89,9.32,10.37
+A @ discount=8%,1.01,8.67,2.55,8.21,9.14
+A @ discount=12%,1.01,6.9,2.03,6.53,7.27
+A @ life=10yr,1.01,6.22,1.83,5.9,6.56
+A @ life=20yr,1.01,8.62,2.54,8.17,9.09
+A @ life=25yr,1.01,9.19,2.7,8.71,9.69
+A @ CF=70%,0.71,5.39,1.59,5.11,5.69
+A @ CF=85%,0.86,6.55,1.93,6.2,6.9
+A @ CF=95%,0.96,7.32,2.15,6.93,7.72

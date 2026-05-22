@@ -1,0 +1,6 @@
+strategy,mean_$M,p5_$M,p95_$M
+A: Grid-only,31.54,29.95,33.19
+B: Toll-only,52.9,38.63,74.82
+"min(A,B) static",31.54,29.95,33.19
+C: Dynamic optimal,28.71,26.55,30.86
+Real Option Premium,2.83,1.05,4.95

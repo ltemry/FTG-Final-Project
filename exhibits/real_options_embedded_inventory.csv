@@ -1,0 +1,7 @@
+option,underlying,type,exercise,computed,value_estimate,notes
+Operate (toll),HB_HOUSTON LMP − Toll cost,Strip of European calls,Hourly,YES (Exhibit 07),$1.42M / 6 mo,"Core spark spread option, base-case MC"
+Switch location,HB_HOUSTON − HB_WEST LMP spread,Margrabe exchange option,Hourly (for training load),PARTIAL — analyzed but not strip-valued,Significant; see Exhibit 04,Negative-LMP hours at West are free training fuel
+Time-shift training,HB_HOUSTON LMP within day,Asian/lookback (best of N hours),Daily (500 MWh/day must-run),PARTIAL — diurnal pattern shown,Implicit in optimal procurement,"See Exhibit 03 — hours 17-20 avoid, 10-15 prefer"
+Build waste heat recovery,Heat recovery NPV vs capex,American call (deferred exercise),One-time investment,YES (Exhibit 09),$7.70M max capex (Houston),Standard DCF NPV; not stochastic-MC
+Abandon toll,Toll lease vs walk-away,American put,At contract review periods,NOT explicitly,Small — modeled as 6mo European,"Project doc says 6-mo strip, so European approx is fine"
+Carbon timing,Future carbon price,Optionality to switch tech,Multi-year horizon,PARTIAL (Exhibit 08 sensitivity),Major risk — 68% value loss @ $50/ton,Regulatory uncertainty drives this
